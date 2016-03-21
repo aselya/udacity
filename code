@@ -39,6 +39,8 @@ p2= ''' A five ___5___, a six ___6___,a seven ___7___, a eight ___8___ '''
 # How can you adapt that design to work with numbered blanks?
 
 # If you need help, you can sign up for a 1 on 1 coaching appointment: https://calendly.com/ipnd1-1/20min/
+
+print "please enter the number of the level you'd like to play.(1,2,3)"
 user_input= raw_input()
 if user_input == 1:
     paragraph = p1
@@ -49,3 +51,6 @@ if user_input == 2:
 if user_input == 2:
    paragraph = p2
    answer= a2
+else:   
+   print "try again"
+
